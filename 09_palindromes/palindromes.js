@@ -11,7 +11,7 @@ const palindromes = function (st1) {
 
                     const reversest=cleanst.split("").reverse().join("")
 
-                    return reversest==cleanst
+                    return reversest===cleanst
 };
 
 // Do not edit below this line
